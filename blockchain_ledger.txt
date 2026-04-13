@@ -1,0 +1,283 @@
+
+==================================================
+   MEDICAL BLOCKCHAIN-AI SECURITY REPORT
+==================================================
+
+ Original image1.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image1.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image3.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image3.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image6.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image6.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image7.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image7.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image8.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image8.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image9.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image9.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image12.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image12.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image13.JPG
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image13.JPG
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image14.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image14.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image15.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image15.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image16.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image16.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image17.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image17.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image18.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image18.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image19.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image19.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image20.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image20.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image21.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image21.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image22.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image22.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image23.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image23.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image24.png
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image24.png
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image25.png
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image25.png
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image 2.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image 2.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image 4.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image 4.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image 5.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image 5.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image 10.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image 10.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+ Original image 11.jpg
+   Status: Match
+   AI System: Enable
+   Result: Authorized Diagnosis
+
+ Attacked image 11.jpg
+   Status: Mismatch
+   AI System: Block
+   Result: Unauthorized Diagnosis
+------------------------------
+
+==================================================
+ TEST COMPLETED FOR 25 IMAGES
+==================================================
