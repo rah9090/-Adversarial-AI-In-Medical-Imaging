@@ -3,7 +3,6 @@ from PIL import Image
 import io
 import os
 
-# 1. دالة حساب الهاش الحقيقي من داخل بيانات الصورة
 def get_real_sha256(image_path):
     if not os.path.exists(image_path):
         return None
@@ -18,12 +17,12 @@ def get_real_sha256(image_path):
 class MedicalBlockchainAI:
     def __init__(self, image_folder="images"):
         self.image_folder = image_folder
-        # يجلب كل الصور الـ 23 من المجلد تلقائياً
+    
         if not os.path.exists(image_folder):
             os.makedirs(image_folder)
         
         self.image_list = sorted([f for f in os.listdir(image_folder) if f.endswith(('.png', '.jpg', '.jpeg'))])
-        # إنشاء سجل البلوكشين لكل الصور الموجودة
+        
         self.ledger = {img: get_real_sha256(os.path.join(image_folder, img)) for img in self.image_list}
 
     def verify_image(self, img_name):
@@ -31,17 +30,17 @@ class MedicalBlockchainAI:
         current_hash = get_real_sha256(path)
         
         print("\n" + "-"*40)
-        print(f"🔍 SCANNING File: {img_name}")
+        print(f" SCANNING File: {img_name}")
         
         if current_hash == self.ledger.get(img_name):
-            print("✅ STATUS: SUCCESS - Hash Matches")
-            print("🛡️  SYSTEM: Integrity Verified. AI Diagnosis: Normal")
+            print("STATUS: SUCCESS - Hash Matches")
+            print("SYSTEM: Integrity Verified. AI Diagnosis: Normal")
         else:
-            print("❌ STATUS: FAILURE - Hash Mismatch")
-            print("⚠️  SECURITY: Unauthorized Modification Detected! AI BLOCKED.")
+            print(" STATUS: FAILURE - Hash Mismatch")
+            print("  SECURITY: Unauthorized Modification Detected! AI BLOCKED.")
         print("-"*40)
 
-# 2. النظام التفاعلي لاختيار الصور "حبة حبة"
+
 def main():
     system = MedicalBlockchainAI()
     
@@ -54,7 +53,7 @@ def main():
         print("   MEDICAL BLOCKCHAIN-AI: SELECT IMAGE TO TEST")
         print("="*50)
         
-        # عرض قائمة الصور الـ 23 مرقمة
+        
         for i, img in enumerate(system.image_list):
             print(f"[{i}] {img}")
         
