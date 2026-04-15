@@ -38,13 +38,13 @@ if __name__ == "__main__":
     print("   INTEGRATED MEDICAL BLOCKCHAIN-AI SYSTEM")
     print("==================================================")
     
-    # Test Chest Cases
+   
     system.verify_and_diagnose("xray_chest.png", "images/xray_chest.png")
     system.verify_and_diagnose("xray_chest.png", "images/attacked_xray_chest.png")
     
     print("-" * 50)
     
-    # Test Neck Cases
+  
     system.verify_and_diagnose("xray_neck.png", "images/xray_neck.png")
     system.verify_and_diagnose("xray_neck.png", "images/attacked_xray_neck.png")
     
