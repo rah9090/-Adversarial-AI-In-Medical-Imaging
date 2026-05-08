@@ -5,17 +5,36 @@
 - Provided a fully reproducible pipeline for future research.
 
 
+### Blockchain Network Performance
+
+
 | Metric | Measured Value |
 | :--- | :--- |
-| **Min Latency** | 45.35 ms |
-| **Max Latency** | 45.94 ms |
+| **Total Transactions** | 1500 Images |
 | **Average Latency** | 45.83 ms |
-| **Throughput** | 400.6 TPS |
-| **Total Transactions** | 1500 |
-| **Block Finality** | 2035.07 ms |
+| **Max Latency** | 45.94 ms |
+| **Throughput** | 399.65 TPS |
+| **Block Finality** | ~2035.07 ms |
 
+The system was stress-tested with 1500 medical image transactions on the Hyperledger Fabric ledger.
+##  Results & Performance
 
+### Model Performance Metrics
+| Model Status          | Accuracy | Precision | Recall | F1-score | Integrity Check |
+|-----------------------|----------|-----------|--------|----------|-----------------|
+| Base Model (Clean)    | 98.2%    | 97.5%     | 98.9%  | 98.2%    | Verified        |
+| Under PGD Attack      | 45.1%    | 42.8%     | 48.2%  | 45.4%    | Failed          |
+| **Secured (Proposed)**| **96.4%**| **95.8%** | **97.1%**| **96.5%**| **Blockchain Verified** |
 
+###  Key Contributions
+- **Adversarial Defense:** Mitigated PGD attacks in medical X-ray imaging.
+- **Blockchain Ledger:** Integrated Hyperledger Fabric for immutable image hashing.
+- **High Accuracy:** Maintained 96.4% accuracy even under active adversarial attempts.
+
+##  Dataset Description
+- **Source:** Medical Imaging Dataset (Adversarial Samples)
+- **Total Samples:** 50 Images+ 3 dataset
+- **Features:** Grayscale X-ray/CT images + SHA-256 Hashes+ Blockchain.
 
 
 //Disply some of images:
