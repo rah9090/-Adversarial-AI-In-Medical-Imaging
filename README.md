@@ -1,5 +1,4 @@
 
-This repository follows a clean folder structure as expected by reviewers:
 - `Data/`: Raw and processed medical image datasets.
 - `src/`: Source code for preprocessing, model training, and evaluation.
 - `results/`: Contains performance tables, figures, and logs.
