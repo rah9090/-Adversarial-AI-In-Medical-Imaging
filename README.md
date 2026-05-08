@@ -31,7 +31,7 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 - **Blockchain Ledger:** Integrated Hyperledger Fabric for immutable image hashing.
 - **High Accuracy:** Maintained 96.4% accuracy even under active adversarial attempts.
 
-##  Dataset Description
+## Dataset Description
 - **Source:** Medical Imaging Dataset (Adversarial Samples)
 - **Total Samples:** 50 Images+ 3 dataset
 - **Features:** Grayscale X-ray/CT images + SHA-256 Hashes+ Blockchain.
