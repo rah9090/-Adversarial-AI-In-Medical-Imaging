@@ -1,42 +1,30 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh9000\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \
-[cite_start]This repository follows a clean folder structure as expected by reviewers[cite: 1, 2, 3]:\
-- [cite_start]`Data/`: Raw and processed medical image datasets[cite: 10, 11, 12].\
-- [cite_start]`src/`: Source code for preprocessing, model training, and evaluation[cite: 14, 15, 17, 18].\
-- [cite_start]`results/`: Contains performance tables, figures, and logs[cite: 23, 27, 32].\
-- [cite_start]`models/`: The best-performing saved model[cite: 34, 35].\
-\
-\
-- Developed a defense model to preserve medical image integrity against adversarial AI attacks.\
-- Integrated Blockchain technology for data authenticity.\
-- Provided a fully reproducible pipeline for future research.\
-\
-\
-| Metric | Measured Value |\
-| :--- | :--- |\
-| **Min Latency** | 45.35 ms |\
-| **Max Latency** | 45.94 ms |\
-| **Average Latency** | 45.83 ms |\
-| **Throughput** | 400.6 TPS |\
-| **Total Transactions** | 1500 |\
-| **Block Finality** | 2035.07 ms |\
-\
-\
-- [cite_start]**Confusion Matrix:** Displays classification performance under attack[cite: 52].\
-![Confusion Matrix](results/figures/confusion_matrix.png)\
-\
-\
-[cite_start]To reproduce the results, run these commands[cite: 59, 60]:\
-```bash\
-git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging)\
-pip install -r requirements.txt\
-python src/train.py\
-python src/evaluate.py}
+This repository follows a clean folder structure as expected by reviewers:
+- `Data/`: Raw and processed medical image datasets.
+- `src/`: Source code for preprocessing, model training, and evaluation.
+- `results/`: Contains performance tables, figures, and logs.
+- `models/`: The best-performing saved model.
+
+- Developed a defense model to preserve medical image integrity against adversarial AI attacks.
+- Integrated Blockchain technology for data authenticity.
+- Provided a fully reproducible pipeline for future research.
+
+
+| Metric | Measured Value |
+| :--- | :--- |
+| **Min Latency** | 45.35 ms |
+| **Max Latency** | 45.94 ms |
+| **Average Latency** | 45.83 ms |
+| **Throughput** | 400.6 TPS |
+| **Total Transactions** | 1500 |
+| **Block Finality** | 2035.07 ms |
+
+
+- **Confusion Matrix:** Displays classification performance under attack.
+![Confusion Matrix](results/figures/confusion_matrix.png)
+
+
+git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging)
+pip install -r requirements.txt
+python src/train.py
+python src/evaluate.py
