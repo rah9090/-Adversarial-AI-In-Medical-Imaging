@@ -55,9 +55,9 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 
 | Case Study 01 | Case Study 02 | Case Study 03 |
 | :---: | :---: | :---: |
-| ![Result 1](results/figures/Result_image1.png) | ![Result 2](results/figures/Result_image2.png) | ![Result 3](results/figures/Result_image3.png) |
+| ![](/results/figures/Result_image1.png) | ![](/results/figures/Result_image2.png) | ![](/results/figures/Result_image3.png) |
 | **Case Study 04** | **Case Study 05** | **Case Study 06** |
-| ![Result 4](results/figures/Result_image4.png) | ![Result 5](results/figures/Result_image5.png) | ![Result 6](results/figures/Result_image6.png) |
+| ![](/results/figures/Result_image4.png) | ![](/results/figures/Result_image5.png) | ![](/results/figures/Result_image6.png) |
 
 # 1. Clone the repository
 git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git)
