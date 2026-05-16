@@ -1,4 +1,4 @@
-# Adversarial AI In Medical Imaging: A Model to Preserve Medical Image Integrity
+#  Adversarial AI In Medical Imaging: A Model to Preserve Medical Image Integrity
 
 This repository contains the official implementation of a blockchain-based security framework integrated with Deep Learning (ResNet50) to protect medical imaging data against adversarial cyber-attacks.
 
@@ -6,44 +6,32 @@ This repository contains the official implementation of a blockchain-based secur
 
 ##  Repository Structure
 This project follows the standard reviewer-friendly template:
-``` text
-├── README.md
-├── requirements.txt
-├── .gitattributes
-├── Data/
-├── src/
-│   ├── benchmark.py
-│   └── run_all_tests.py
-└── results/
-    ├── integrated_security_test.py
-    └── figures/
-        └── blockchain_security_result.png
-# Key Contributions
-Blockchain-AI Integration: Developed a robust validation architecture using a localized ledger system to ensure data integrity before diagnostics.
 
-Tamper Detection: Achieved 100% automated detection and blocking of adversarial modifications via real-time SHA-256/MD5 digital fingerprinting.
-
-Zero-Trust Clinical Pipeline: Built an automated defense mechanism that completely blocks compromised medical data from passing to the AI classification engine.
-# Dataset Description
-Source: Curated medical diagnostic imaging dataset deployed to validate system response.
-
-Samples: 25 high-resolution validated original diagnostic images.
-
-Target: Secure Original Diagnostics vs. Simulated Adversarial Attack Modalities.
-
-#Model Status,Accuracy,Precision,Recall,F1-score,Integrity Check
-Secure Baseline,94.1%,93.5%,94.8%,94.1%,PASSED (Verified)
-Under Attack (No Defense),12.4%,11.8%,13.2%,12.5%,FAILED (Compromised)
-Proposed Blockchain-AI,94.1%,93.5%,94.8%,94.1%,SECURE (Blocked)
 - `Data/`: Raw and processed medical image datasets.
 - `src/`: Source code for preprocessing, model training, and evaluation.
 - `results/`: Contains performance tables, figures, and logs.
 - `models/`: The best-performing saved model.
 
+---
+
+##  Key Contributions
 - Developed a defense model to preserve medical image integrity against adversarial AI attacks.
 - Integrated Blockchain technology for data authenticity.
 - Provided a fully reproducible pipeline for future research.
 
+---
+
+##  Dataset Description
+- **Source:** Curated medical diagnostic imaging dataset deployed to validate system response.
+- **Samples:** 25 high-resolution validated original diagnostic images.
+- **Target:** Secure Original Diagnostics vs. Simulated Adversarial Attack Modalities.
+
+---
+
+##  Results & Performance Evaluation (MOST IMPORTANT)
+
+### System Performance Benchmarks
+The framework maintains exceptional operational efficiency during high-throughput blockchain authentication loops:
 
 | Metric | Measured Value |
 | :--- | :--- |
@@ -54,9 +42,7 @@ Proposed Blockchain-AI,94.1%,93.5%,94.8%,94.1%,SECURE (Blocked)
 | **Total Transactions** | 1500 |
 | **Block Finality** | 2035.07 ms |
 
-
-
-
+###  Display of System Validation Cases
 
 | Case Study 01 | Case Study 02 | Case Study 03 |
 | :---: | :---: | :---: |
@@ -70,9 +56,20 @@ Proposed Blockchain-AI,94.1%,93.5%,94.8%,94.1%,SECURE (Blocked)
 | **Case Study 13** | **Case Study 14** | **Case Study 15** |
 | ![Result 13](results/figures/Result_image13.png) | ![Result 14](results/figures/Result_image14.png) | ![Result 15](results/figures/Result_image15.png) |
 
+---
 
+##  Reproducibility Section
+To deploy, verify, and fully reproduce the security log results locally, execute the following commands in your terminal:
 
-git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging)
+```bash
+# 1. Clone the repository
+git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git)
+
+# 2. Install core dependencies
 pip install -r requirements.txt
+
+# 3. Run model training pipeline
 python src/train.py
+
+# 4. Evaluate and generate results
 python src/evaluate.py
