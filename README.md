@@ -64,16 +64,5 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 # 1. Clone the repository
 git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git)
 
-# 2. Navigate to the project directory
-cd -Adversarial-AI-In-Medical-Imaging
-
-# 3. Install core dependencies
-pip install -r requirements.txt
-
-# 4. Run the automated system validation tests
-python3 src/run_all_tests.py
-
-# 5. Generate the visual security plots
-python3 results/integrated_security_test.py
 
 
