@@ -52,7 +52,6 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 
 
 
-
 ###  Display of System Validation Cases
 
 | Case Study 01 | Case Study 02 | Case Study 03 |
