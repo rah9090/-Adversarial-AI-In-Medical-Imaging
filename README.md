@@ -1,9 +1,23 @@
+ Adversarial AI In Medical Imaging: A Model to Preserve Medical Image Integrity
 
+This repository contains the official implementation of a blockchain-based security framework integrated with Deep Learning (ResNet50) to protect medical imaging data against adversarial cyber-attacks.
 
-- Developed a defense model to preserve medical image integrity against adversarial AI attacks.
-- Integrated Blockchain technology for data authenticity.
-- Provided a fully reproducible pipeline for future research.
+---
 
+##  Repository Structure
+[cite_start]This project follows the standard reviewer-friendly template[cite: 1, 3]:
+``` text
+├── README.md
+├── requirements.txt
+├── .gitattributes
+├── Data/
+├── src/
+│   ├── benchmark.py
+│   └── run_all_tests.py
+└── results/
+    ├── integrated_security_test.py
+    └── figures/
+        └── blockchain_security_result.png
 
 ### Blockchain Network Performance
 
@@ -37,7 +51,7 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 - **Features:** Grayscale X-ray/CT images + SHA-256 Hashes+ Blockchain.
 
 
-//Disply some of images:
+//Disply some of  test images:
 
 | Case Study 01 | Case Study 02 | Case Study 03 |
 | :---: | :---: | :---: |
@@ -52,6 +66,19 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 | ![Result 13](results/figures/Result_image13.png) | ![Result 14](results/figures/Result_image14.png) | ![Result 15](results/figures/Result_image15.png) |
 
 
+# 1. Clone the repository
+git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git)
 
-git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging).
+# 2. Navigate to the project directory
+cd -Adversarial-AI-In-Medical-Imaging
+
+# 3. Install core dependencies
+pip install -r requirements.txt
+
+# 4. Run the automated system validation tests
+python3 src/run_all_tests.py
+
+# 5. Generate the visual security plots
+python3 results/integrated_security_test.py
+
 
