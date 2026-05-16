@@ -50,14 +50,20 @@ The system was stress-tested with 1500 medical image transactions on the Hyperle
 - **Total Samples:** 50 Images+ 3 dataset
 - **Features:** Grayscale X-ray/CT images + SHA-256 Hashes+ Blockchain.
 
+### Display of System Validation Cases
 
-###  Display of System Validation Cases
-
-| Case Study 01 | Case Study 02 | Case Study 03 |
-| :---: | :---: | :---: |
-| ![](/results/figures/Result_image1.png) | ![](/results/figures/Result_image2.png) | ![](/results/figures/Result_image3.png) |
-| **Case Study 04** | **Case Study 05** | **Case Study 06** |
-| ![](/results/figures/Result_image4.png) | ![](/results/figures/Result_image5.png) | ![](/results/figures/Result_image6.png) |
+<table>
+  <tr>
+    <td align="center"><b>Case Study 01</b><br><img src="results/figures/Result_image1.png" width="200"></td>
+    <td align="center"><b>Case Study 02</b><br><img src="results/figures/Result_image2.png" width="200"></td>
+    <td align="center"><b>Case Study 03</b><br><img src="results/figures/Result_image3.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Case Study 04</b><br><img src="results/figures/Result_image4.png" width="200"></td>
+    <td align="center"><b>Case Study 05</b><br><img src="results/figures/Result_image5.png" width="200"></td>
+    <td align="center"><b>Case Study 06</b><br><img src="results/figures/Result_image6.png" width="200"></td>
+  </tr>
+</table>
 
 # 1. Clone the repository
 git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git)
