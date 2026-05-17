@@ -65,11 +65,4 @@ To deploy, verify, and fully reproduce the security log results locally, execute
 # 1. Clone the repository
 git clone [https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git](https://github.com/rah9090/-Adversarial-AI-In-Medical-Imaging.git)
 
-# 2. Install core dependencies
-pip install -r requirements.txt
 
-# 3. Run model training pipeline
-python src/train.py
-
-# 4. Evaluate and generate results
-python src/evaluate.py
